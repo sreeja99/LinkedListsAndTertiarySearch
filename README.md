@@ -1,4 +1,25 @@
-# LinkedListsAndTertiarySearch
-# I executed them directly on eclipse.If we copy the code directly to eclipse it would be easy or we can use these commands to check in the command prompt.The CommandPromptExecutions and EclipseExecutions contains the executions Screenshots.The LinkedList folder hass two files LinkedList.java and selectionSort.java.The tertiary search folder has tertiarySearch.java file:
-## Download it and open command prompt and go the location of the folder then press dir.We get the java file name in this case tertiarySearch.java.Then the 1st command is javac -d . tertiarySearch.java.After that a file gets created in the folder.The second command is java classname.javafilename(tertiarySearch.tertiarySearch).Input for for TertiarySearch is:Give number of array elements(n),then the array type the array elements next give the value you want to search then the output will be displayed.
-## Download it and open command prompt and go the location of the folder then press dir.We get the java file name in this case LinkedList.java and selectionSort.java.Then the 1st command is javac -d . LinkedList.java selectionSort.java. After that 2 files get created.The second command is java firstclassname.secondclassname.javafilename(www.datastructures.LinkedList) because LinkedList class has the main method.Input:Give the number of nodes you want to enter.Then type that many values.Then LinkedList before and after sorting will be displayes.
+# Unix V6 File System
+### We implemented a c program to open a file,read,write,making a directory,changing the directory,deleting the file from v6 file system ,creating a new file in v6 file system and filling up the contents in that from external file(cpin),creating an external file and make the external file contents equal to v6 file contents9(cpout) and finally to quit the file system we have created
+## Some unix calls used:
+### lseek(),read(),write(),open().
+## Compilation and Running:
+### We executed the c program on command prompt by connecting to global protect(vpn to access the campus server).We should compiler the code by using gcc compiler.The command is gcc filename(cc modv6.c).For running we use the command ./a.out.
+### After the program runs then we can enter whatever command the user wishes.The commands that can be chosen by the user:
+## open_fs :  open_fs foo.txt
+
+## init_fs :  initfs 10 2
+
+## cpin :  cpin Path(any path on your desktop) transfer1.txt
+
+## cpout : cpout destination path(choose the path on your desktop for external file) transfer.txt
+
+## rm : rm transfer.txt
+
+## cd : cd name(name of the directory)
+
+## mkdir : mkdir name(name of the directory)
+
+## q(quit) : q used for quitting
+
+
+
